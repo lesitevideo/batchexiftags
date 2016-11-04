@@ -1,5 +1,5 @@
 # batchexiftags
-batch exiftool images with a csv file
+batch exiftool images with a csv file<br/>
 conform panorama images for uploading on Google maps
 
 usage :
