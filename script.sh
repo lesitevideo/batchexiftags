@@ -17,7 +17,7 @@ do
     echo "filename : $filename"
     
     #exiftool
-    exiftool -overwrite_original -Make=Kinoki.fr -Model=KINOBOT -Software=KINOBOT -FullPanoWidthPixels=8000 -FullPanoHeightPixels=4000 -CroppedAreaImageWidthPixels=8000 -CroppedAreaImageHeightPixels=4000 -CroppedAreaLeftPixels=0 -CroppedAreaTopPixels=0 -UsePanoramaViewer=True -ProjectionType=equirectangular -GPSLatitude=$GPSLatitude -GPSLongitude=$GPSLongitude -gpslatituderef=$gpslatituderef -gpslongituderef=$gpslongituderef -PoseHeadingDegrees=$PoseHeadingDegrees -Description=$DESCRIPTION ./$filename
+    exiftool -overwrite_original -Make=Kinoki.fr -Model=KINOBOT -Software=KINOBOT -FullPanoWidthPixels=8000 -FullPanoHeightPixels=4000 -CroppedAreaImageWidthPixels=8000 -CroppedAreaImageHeightPixels=4000 -CroppedAreaLeftPixels=0 -CroppedAreaTopPixels=0 -UsePanoramaViewer=True -ProjectionType=equirectangular -GPSLatitude=$GPSLatitude -GPSLongitude=$GPSLongitude -gpslatituderef=$gpslatituderef -gpslongituderef=$gpslongituderef -PoseHeadingDegrees=$PoseHeadingDegrees -Description=$DESCRIPTION $filename
     
 done < $INPUT
 IFS=$OLDIFS
