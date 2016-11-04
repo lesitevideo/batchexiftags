@@ -1,2 +1,2 @@
 1,31102016,11:26:29.0,46.777180,N,0.538853,E,88.0,1.jpg
-0,0,0,0,0,0,0,0,0
+index,date,time,lat,lon,latref,lonref,heading,fiename
